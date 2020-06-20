@@ -45,7 +45,7 @@ function calculateRate(response, weight, type) {
 	const params = {
 		weight: weight,
 		type: type,
-		total: total
+		total: total.toFixed(2)
 	};
 
 	// Render the response, using the EJS page "result.ejs" in the pages directory
